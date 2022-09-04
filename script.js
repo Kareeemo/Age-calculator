@@ -1,6 +1,6 @@
 let currentYear = 2022;
-let currentMonth = 8;
-let currentDate = 31;
+let currentMonth = 9;
+let currentDate = 1;
 
 const userYear = document.getElementById('year-input');
 const userMonth = document.getElementById('month-input');
@@ -13,3 +13,5 @@ function Submit() {
      ${Math.abs(currentMonth - userMonth.value)} months and ${Math.abs(currentDate - userDate.value)} days old `;
 
 }
+
+
